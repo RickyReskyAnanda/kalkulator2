@@ -1,0 +1,208 @@
+{
+  "building": {
+    "address": "Menara 165, Jalan Tb Simatupang, Cilandak Tim., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560", 
+    "deleted_at": null, 
+    "id": 394, 
+    "lat": -6.290676, 
+    "lon": 106.809585, 
+    "name": "Menara 165", 
+    "picture": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/buildings/images/394/https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/buildings/images/394/https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/buildings/images/394/https://s3-ap-southeast-1.amazona", 
+    "region": [
+      {
+        "level": "country", 
+        "name": "Indonesia"
+      }, 
+      {
+        "level": "administrative_area_level_1", 
+        "name": "Daerah Khusus Ibukota Jakarta"
+      }, 
+      {
+        "level": "administrative_area_level_2", 
+        "name": "Kota Jakarta Selatan"
+      }, 
+      {
+        "level": "administrative_area_level_3", 
+        "name": "Pasar Minggu"
+      }, 
+      {
+        "level": "administrative_area_level_4", 
+        "name": "Cilandak Timur"
+      }, 
+      {
+        "level": "route", 
+        "name": "Jalan Tb Simatupang"
+      }
+    ]
+  }, 
+  "capacity": 17, 
+  "contact_email": "event.coordinator165@gmail.com", 
+  "contact_number": "Lusy 085780552201 / Nia 087876362781 / Pak Atin 085715243959", 
+  "created_at": "2017-09-22T09:09:50+00:00", 
+  "description": "<p><b>Suite Room\u00a0</b></p><p><!--StartFragment--></p><p style=\"font-size: 13px;\">Set up Boardroom Style.\u00a0\u00a0</p><p style=\"font-size: 13px;\">Connecting dengan Bedroom Hotel\u00a0</p><p style=\"font-size: 13px;\"><font face=\"inherit\">-Meja\u00a0</font>furniture<font face=\"inherit\">\u00a0kayu atau meja minimalis Banquet\u00a0</font></p><p style=\"font-size: 13px;\">-Kursi furniture kayu atau kursi banquet dengan cover Chairs</p><p style=\"font-size: 13px;\">-LED TV 32 inch sudah tersedia diruangan</p><p style=\"font-size: 13px;\">-Toilet didalam ruangan</p><p style=\"font-size: 13px;\">-AC Split, Remote tersedia (temperatur dapat disesuaikan)</p><!--EndFragment--><p><br/></p><p><br/></p><p></p>", 
+  "facilities": [
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Free WiFi-1502348081.597.png", 
+      "id": 1, 
+      "name": "Free WiFi", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Flipchart-1502091457.06.png", 
+      "id": 4, 
+      "name": "Flipchart", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Free mineral water-1502091309.845.png", 
+      "id": 2, 
+      "name": "Free mineral water", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": null, 
+      "id": 15, 
+      "name": "Permen", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/TV LCD-1502091662.795.png", 
+      "id": 9, 
+      "name": "TV LCD", 
+      "price_per_day": 0, 
+      "price_per_hour": 100000
+    }, 
+    {
+      "icon_url": null, 
+      "id": 76, 
+      "name": "Notepad", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": null, 
+      "id": 77, 
+      "name": "Pen", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": null, 
+      "id": 87, 
+      "name": "AC", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }, 
+    {
+      "icon_url": null, 
+      "id": 61, 
+      "name": "Cable VGA", 
+      "price_per_day": null, 
+      "price_per_hour": null
+    }
+  ], 
+  "food_info": "<p>Coffee Break Rp 30.000 sd Rp 50.000<br/>Lunch/Dinner Rp 105.000 sd Rp 150.000<br/>*M-Mart *Medina Caffee *Kantin 165<br/></p>", 
+  "fullday_price": 2000000, 
+  "halfday_price": 1000000, 
+  "id": 878, 
+  "id_building": 394, 
+  "is_daily": false, 
+  "is_food_allowed": false, 
+  "is_fullday": true, 
+  "is_halfday": true, 
+  "is_hourly": true, 
+  "is_monthly": false, 
+  "is_published": true, 
+  "is_verified": false, 
+  "is_wholeday": false, 
+  "main_price": 0, 
+  "name": "Suite Room", 
+  "operational_hours": [
+    {
+      "day": 0, 
+      "start": "14:00", 
+      "time_end": "22:00"
+    }, 
+    {
+      "day": 1, 
+      "start": "08:00", 
+      "time_end": "22:00"
+    }, 
+    {
+      "day": 2, 
+      "start": "08:00", 
+      "time_end": "22:00"
+    }, 
+    {
+      "day": 3, 
+      "start": "08:00", 
+      "time_end": "22:00"
+    }
+  ], 
+  "picture": [
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507279071.374.ori.jpg", 
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507285849.524.ori.jpg", 
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507621223.849.ori.jpg", 
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507705478.076.ori.jpg", 
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507705582.353.ori.jpg", 
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/878/878_1507705713.056.ori.jpg"
+  ], 
+  "price_per_day": 0, 
+  "price_per_hour": 275000, 
+  "price_per_month": 0, 
+  "regulation": "<p>*Dilarang membawa hewan</p><p><br style=\"font-size: 13px;\"/><span style=\"font-size: 13px;float: none;\">*Dilarang membawa makanan &amp; minuman dari luar (kecuali setelah</span><br style=\"font-size: 13px;\"/><span style=\"font-size: 13px;float: none;\">jam 17.00 )</span><br style=\"font-size: 13px;\"/><span style=\"font-size: 13px;float: none;\">*Dilarang merokok didalam ruangan</span><br style=\"font-size: 13px;\"/><span style=\"font-size: 13px;float: none;\">*Jika jumlah tamu melebihi kapasitas wajib menginfokan ke pihak XWORK</span><!--EndFragment--><br/><br/><br/></p>", 
+  "room_access": "<p></p><p style=\"font-size: 13px;\">*Dari Lobby MICE/Office menuju lantai 2 menggunakan lift/Tangga<br/>*Berada di jalur utama TB Simatupang<br/>*Akses mudah ke Jakarta CBD, Kawasan segitiga emas sudirman,<br/>Gatot subroto dan Kuningan<br/>*Dekat dengan Kebayoran Baru, Kemang, Pondok Indah, Fatmawati,<br/>Antasari dan Jalan Tol<br/>*Bebas dari Zona Ganjil Genap<br/>*Berdekatan dengan gedung Wisma Raharja, Ratu Prabu II, Graha<br/>Elnusa, Kantor Pajak, Trakindo TMT Tower, High Scope Indonesia,<br/>Talavera Office Tower, Cilandak Town Square, Manhattan Tower<br/></p><!--EndFragment--><p><br/></p><p><br/></p><p><br/></p><p></p>", 
+  "room_size": 41, 
+  "room_type": {
+    "id": 1, 
+    "name": "Ruang Meeting"
+  }, 
+  "room_type_id": 1, 
+  "updated_at": null, 
+  "usages": [
+    {
+      "id": 1, 
+      "name": "Meeting dengan tamu"
+    }, 
+    {
+      "id": 4, 
+      "name": "Training dan pelatihan"
+    }, 
+    {
+      "id": 5, 
+      "name": "Interview"
+    }, 
+    {
+      "id": 6, 
+      "name": "Workshop"
+    }, 
+    {
+      "id": 7, 
+      "name": "Seminar"
+    }, 
+    {
+      "id": 9, 
+      "name": "Presentasi"
+    }, 
+    {
+      "id": 10, 
+      "name": "Kantor sementara"
+    }, 
+    {
+      "id": 11, 
+      "name": "Psikotest"
+    }, 
+    {
+      "id": 12, 
+      "name": "Internal meeting perusahaan"
+    }, 
+    {
+      "id": 13, 
+      "name": "Gathering"
+    }
+  ], 
+  "wholeday_price": 0
+}

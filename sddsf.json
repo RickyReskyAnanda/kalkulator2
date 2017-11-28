@@ -1,0 +1,180 @@
+{
+  "building": {
+    "address": "Jl. By Pass Ngurah Rai No.67, Kuta, Kabupaten Badung, Bali 80361", 
+    "deleted_at": null, 
+    "id": 254, 
+    "lat": -8.765587, 
+    "lon": 115.178602, 
+    "name": "Alamanda Bali", 
+    "picture": "Alamanda Bali.jpg", 
+    "region": [
+      {
+        "level": "country", 
+        "name": "Indonesia"
+      }, 
+      {
+        "level": "administrative_area_level_1", 
+        "name": "Bali"
+      }, 
+      {
+        "level": "administrative_area_level_2", 
+        "name": "Kabupaten Badung"
+      }, 
+      {
+        "level": "administrative_area_level_3", 
+        "name": "Kuta"
+      }, 
+      {
+        "level": "administrative_area_level_4", 
+        "name": "Kedonganan"
+      }, 
+      {
+        "level": "route", 
+        "name": "Jalan By Pass Ngurah Rai"
+      }
+    ]
+  }, 
+  "capacity": 6, 
+  "contact_email": "xwork.alb.opr@marqueeoffices.com", 
+  "contact_number": "(08118256274) Tanita Azania. Marquee Alamanda Bali.", 
+  "created_at": null, 
+  "description": "Ruang meeting Moselle ini terdapat di Alamanda Bali Jl. By Pass Ngurah Rai no. 67 Kuta, Kab. Badung Bali. Ruang meeting ini memberikan pemandangan alam yang sejuk nan indah, membuat meeting Anda lebih nyaman. Ruang meeting ini memiliki kapasitas 6 orang. Harga sewa ruang meeting ini Rp. 115.000,- per jamnya.", 
+  "facilities": [
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Projector (berbayar)-1502091353.257.png", 
+      "id": 3, 
+      "name": "Projector (berbayar)", 
+      "price_per_day": 0, 
+      "price_per_hour": 0
+    }, 
+    {
+      "icon_url": null, 
+      "id": 5, 
+      "name": "Free Whiteboard dan spidol", 
+      "price_per_day": 0, 
+      "price_per_hour": 0
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Free WiFi-1502348081.597.png", 
+      "id": 1, 
+      "name": "Free WiFi", 
+      "price_per_day": 0, 
+      "price_per_hour": 0
+    }, 
+    {
+      "icon_url": null, 
+      "id": 24, 
+      "name": "Public lounge (ruang tunggu)", 
+      "price_per_day": 0, 
+      "price_per_hour": 0
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Free mineral water-1502091309.845.png", 
+      "id": 2, 
+      "name": "Free mineral water", 
+      "price_per_day": 0, 
+      "price_per_hour": 0
+    }, 
+    {
+      "icon_url": "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/public/facility_icon/Coffee and tea (berbayar)-1502091623.945.png", 
+      "id": 8, 
+      "name": "Coffee and tea (berbayar)", 
+      "price_per_day": 0, 
+      "price_per_hour": 12100
+    }
+  ], 
+  "food_info": "Food :\n- Nasi Bali Rp. 35.000\nBeverage :\n- Coffee / Tea      Rp. 12.100\n- Cappuccino       Rp. 20.000\n- Hot Chocolate   Rp. 15.000 \nSnacks :\n- Mini Brownies   Rp. 11.000\n- Roll Cake            Rp . 8.000", 
+  "fullday_price": null, 
+  "halfday_price": null, 
+  "id": 263, 
+  "id_building": 254, 
+  "is_daily": false, 
+  "is_food_allowed": true, 
+  "is_fullday": false, 
+  "is_halfday": false, 
+  "is_hourly": true, 
+  "is_monthly": false, 
+  "is_published": true, 
+  "is_verified": null, 
+  "is_wholeday": false, 
+  "main_price": null, 
+  "name": "Moselle Room", 
+  "operational_hours": [
+    {
+      "day": 0, 
+      "start": "09:00", 
+      "time_end": "18:00"
+    }, 
+    {
+      "day": 1, 
+      "start": "09:00", 
+      "time_end": "18:00"
+    }, 
+    {
+      "day": 2, 
+      "start": "09:00", 
+      "time_end": "18:00"
+    }, 
+    {
+      "day": 3, 
+      "start": "09:00", 
+      "time_end": "18:00"
+    }, 
+    {
+      "day": 4, 
+      "start": "09:00", 
+      "time_end": "18:00"
+    }, 
+    {
+      "day": 5, 
+      "start": "09:00", 
+      "time_end": "13:00"
+    }
+  ], 
+  "picture": [
+    "https://s3-ap-southeast-1.amazonaws.com/xwork-bucket/rooms/images/263/MarqueeAlamandaBali.jpg"
+  ], 
+  "price_per_day": null, 
+  "price_per_hour": 115000, 
+  "price_per_month": null, 
+  "regulation": "-Dilarang merokok di dalam ruangan\n-Dilarang membawa makanan dari luar\n-Jika jumlah tamu melebihi kapasitas, wajib menginfokan terlebih dahulu ke pihak XWORK", 
+  "room_access": "-Terletak di Jl. By Pass Ngurah Rai, Kedonganan\n-Dekat dengan Dunkin Donuts Kedongan\n- Tunjukkan email konfirmasi booking via XWORK setiba di lokasi", 
+  "room_size": null, 
+  "room_type": {
+    "id": 1, 
+    "name": "Ruang Meeting"
+  }, 
+  "room_type_id": 1, 
+  "updated_at": null, 
+  "usages": [
+    {
+      "id": 1, 
+      "name": "Meeting dengan tamu"
+    }, 
+    {
+      "id": 3, 
+      "name": "Photoshoot"
+    }, 
+    {
+      "id": 5, 
+      "name": "Interview"
+    }, 
+    {
+      "id": 9, 
+      "name": "Presentasi"
+    }, 
+    {
+      "id": 16, 
+      "name": "Audit"
+    }, 
+    {
+      "id": 17, 
+      "name": "Konsultasi"
+    }, 
+    {
+      "id": 10, 
+      "name": "Kantor sementara"
+    }
+  ], 
+  "wholeday_price": null
+}
