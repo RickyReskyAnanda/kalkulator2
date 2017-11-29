@@ -21,12 +21,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" href="{{asset('9ju93/css/materialize.min.css')}}">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/ceklok.css">
+		<link rel="stylesheet" href="{{asset('9ju93/css/style.css')}}">
+		<link rel="stylesheet" href="{{asset('9ju93/css/ceklok.css')}}">
 
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="{{asset('9ju93/css/flexslider.css')}}" type="text/css" media="screen" />
 
 
 	</head>
@@ -34,7 +34,7 @@
 
 		<nav class="blue" role="navigation">
 			<div class="nav-wrapper container">
-				<a href="index.html" class="brand-logo darken-1"><img src="img/logo.png" alt="materialize logo"></a></li>
+				<a href="index.html" class="brand-logo darken-1"><img src="{{asset('9ju93/img/logo.png" alt="materialize logo"></a></li>
                 
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#">Cek Pesanan</a></li>
@@ -83,38 +83,38 @@
 			      						<div id="slider" class="flexslider">
 			      							<ul class="slides">
 			      								<li>
-			      									<img src="img/kitchen_adventurer_cheesecake_brownie.jpg" />
+			      									<img src="{{asset('9ju93/img/kitchen_adventurer_cheesecake_brownie.jpg')}}" />
 			      								</li>
 			      								<li>
-													<img src="img/kitchen_adventurer_lemon.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_lemon.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_donut.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_donut.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_caramel.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_caramel.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_cheesecake_brownie.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_cheesecake_brownie.jpg')}}" />
 												</li>
 											</ul>
 										</div>
 										<div id="carousel" class="flexslider">
 											<ul class="slides">
 												<li>
-													<img src="img/kitchen_adventurer_cheesecake_brownie.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_cheesecake_brownie.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_lemon.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_lemon.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_donut.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_donut.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_caramel.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_caramel.jpg')}}" />
 												</li>
 												<li>
-													<img src="img/kitchen_adventurer_cheesecake_brownie.jpg" />
+													<img src="{{asset('9ju93/img/kitchen_adventurer_cheesecake_brownie.jpg')}}" />
 												</li>
 											</ul>
 										</div>
@@ -148,11 +148,11 @@
   </div>
 </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/materialize.min.js"></script>
-<script src="js/init.js"></script>
+<script src="{{asset('9ju93/js/jquery.min.js')}}"></script>
+<script src="{{asset('9ju93/js/materialize.min.js')}}"></script>
+<script src="{{asset('9ju93/js/init.js')}}"></script>
 
-<script src="js/jquery.flexslider.js"></script>
+<script src="{{asset('9ju93/js/jquery.flexslider.js')}}"></script>
 
   <script type="text/javascript">
     $(window).load(function(){

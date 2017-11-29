@@ -133,5 +133,11 @@ Route::get('regency', 'Region\RegionController@regency');
 
 
 
+
 /*page testing*/
-Route::get('/testing', 'Homepage\HomeController@testing');
+Route::prefix('demo')->group(function () {
+	Route::namespace('Homepage2')->group(function () {
+		Route::get('/', 'BerandaController@index');
+		Route::get('pencarian', 'pencarianController@index');
+	});
+});

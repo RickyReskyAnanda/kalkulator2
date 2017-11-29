@@ -90,7 +90,7 @@
 									</div>
 				                    <div class="col s12 card white list-ceklok">   
 					                    <div class="col s3">
-					                    	<img class="responsive-img activator materialboxed" src="img/office.jpg" alt="office">
+					                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
 					                    </div>
 					                    <div class="col s6">
 					                      	<div class="card-content ">
@@ -107,7 +107,7 @@
 					                </div>
 					                <div class="col s12 card white list-ceklok">
 					                	<div class="col s3">
-					                		<img class="responsive-img activator materialboxed" src="img/office.jpg" alt="office">
+					                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
 					                	</div>
 					                	<div class="col s6">
 					                		<div class="card-content">

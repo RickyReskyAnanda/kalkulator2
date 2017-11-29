@@ -417,7 +417,4 @@ class HomeController extends Controller
         }
     }
 
-    public function testing(){
-        return view('index-fix');
-    }
 }
