@@ -34,7 +34,7 @@
 
 		<nav class="blue" role="navigation">
 			<div class="nav-wrapper container">
-				<a href="index.html" class="brand-logo darken-1"><img src="{{asset('9ju93/img/logo.png" alt="materialize logo"></a></li>
+				<a href="index.html" class="brand-logo darken-1"><img src="{{asset('9ju93/img/logo.png')}}" alt="materialize logo"></a></li>
                 
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#">Cek Pesanan</a></li>

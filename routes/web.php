@@ -138,6 +138,7 @@ Route::get('regency', 'Region\RegionController@regency');
 Route::prefix('demo')->group(function () {
 	Route::namespace('Homepage2')->group(function () {
 		Route::get('/', 'BerandaController@index');
-		Route::get('pencarian', 'pencarianController@index');
+		Route::get('pencarian', 'PencarianController@index');
+		Route::get('venue/detail', 'DetailVenueController@index');
 	});
 });

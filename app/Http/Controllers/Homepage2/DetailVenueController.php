@@ -8,6 +8,6 @@ use App\Http\Controllers\Controller;
 class DetailVenueController extends Controller
 {
     public function index(){
-        return view('index-fix');
+        return view('home-fix.detailvenue.detailvenue');
     }
 }
