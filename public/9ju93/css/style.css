@@ -1,0 +1,81 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #fcfcfc;
+}
+
+p {
+  line-height: 25px;
+}
+
+.button-collapse {
+  color: #fcfcfc;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.sample-icon-list .sample-icon a .fa, .sample-icon-list .sample-icon a .icons {
+  width: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.nav-wrapper>.brand-logo {
+  padding: 7px;
+}
+
+.nav-wrapper img {
+  width: 200px;
+}
+
+.card-content .room-thumbnail {
+  height: 167px;
+  border: 1px solid #efefef;
+}
+
