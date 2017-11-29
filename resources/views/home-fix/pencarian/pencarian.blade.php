@@ -52,77 +52,77 @@
 		        <div class="container">
 		          	<div class="section">	
 		            	<div class="row">
-		             		<div class="col s12">
+		             		<div class="col l12">
 		                		<div class="row">
-		                			<div class="col s12 search-ceklok">
-		                				<div class="col s4">
-		                					<div class="input-field col s12">
+		                			<div class="col l12 search-ceklok">
+		                				<div class="col l4">
+		                					<div class="input-field col l12">
 			                				<i class="icon-present icons prefix"></i>
 			                				<input type="text" id="autocomplete-input" class="autocomplete">
 			                				<label for="autocomplete-input">Autocomplete</label>
 			                			</div>
 			                		</div>
-			                		<div class="col s3">
-			                			<div class="input-field col s12">
+			                		<div class="col l3">
+			                			<div class="input-field col l12">
 			                				<i class="icon-present icons prefix"></i>
 			                				<input type="text" placeholder="30 November 2017">
 			                				<label for="first_name">Jenis Acara</label>
 			                			</div>
 			                		</div>
-			                		<div class="col s3">
-			                			<div class="input-field col s12">
+			                		<div class="col l3">
+			                			<div class="input-field col l12">
 			                				<i class="icon-calendar icons prefix"></i>
 			                				<input type="text" placeholder="30 November 2017" class="datepicker">
 			                				<label for="first_name">Tanggal Acara</label>
 			                			</div>
 			                		</div>
-			                		<div class="col s2">
+			                		<div class="col l2">
 			                			<button class="btn waves-effect waves-light btn-search"><i class="icon-magnifier left icons"></i>Cari</button>
 			                		</div>
 			                	</div>
-		                  		<div class="col s8">
-									<div class="col s5 right">
+		                  		<div class="col l8">
+									<div class="col l5 right">
 					                  	<ul class="tabs" style="width: 30%;">
 					                    	<li class="tab"><a href="#paket" class="">Paket</a></li>
 					                    	<li class="tab"><a class="" href="#non-paket">Non Paket</a></li>
 									        <li class="indicator" style="right: 359px; left: 288px;"></li>
 									    </ul>
 									</div>
-				                    <div class="col s12 card white list-ceklok">   
-					                    <div class="col s3">
+				                    <div class="col l12 card white list-ceklok">   
+					                    <div class="col l3">
 					                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
 					                    </div>
-					                    <div class="col s6">
+					                    <div class="col l6">
 					                      	<div class="card-content ">
 					                        	<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
 					                        	<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
 					                        	<p>Tipe Ruangan: Ruang Meeting</p>
 					                      	</div>                  
 					                    </div> 
-					                    <div class="col s3 center-align right-ceklok">
+					                    <div class="col l3 center-align right-ceklok">
 					                    	<p>Pesan</p>
 					                    	<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
 					                    	<p><i class="icon-people icons"></i> 250 pax</p>
 					                    </div>                    
 					                </div>
-					                <div class="col s12 card white list-ceklok">
-					                	<div class="col s3">
+					                <div class="col l12 card white list-ceklok">
+					                	<div class="col l3">
 					                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
 					                	</div>
-					                	<div class="col s6">
+					                	<div class="col l6">
 					                		<div class="card-content">
 					                			<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
 					                			<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
 					                			<p>Tipe Ruangan: Ruang Meeting</p>
 					                		</div>                  
 					                	</div> 
-					                	<div class="col s3 center-align right-ceklok">
+					                	<div class="col l3 center-align right-ceklok">
 					                		<p>Pesan</p>
 					                		<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
 					                		<p><i class="icon-people icons"></i> 250 pax</p>
 					                	</div>                    
 					                </div>
-					                <div class="col s12 center">
+					                <div class="col l12 center">
 					                	<ul class="pagination">
 										    <li class="disabled"><a href="#!"><i class="mdi-navigation-chevron-left"></i></a></li>
 										    <li class="active"><a href="#!">1</a></li>
@@ -135,7 +135,7 @@
 					                </div>
 
 			            		</div>
-					            <div class="col s4">
+					            <div class="col l4">
 					            	<div class="card yellow-ceklok filter-ceklok">                      
 					            		<div class="card-content grey-ceklok-text">
 					            			<span class="card-title">Filter Pencarian</span>
@@ -144,9 +144,9 @@
 					            			
 					            			<p class="category-ceklok">Kisaran Harga</p>
 					            			<div id="slider-range" style="margin: 10px auto 20px auto;"></div>
-					            			<div class="col s5"><span id="slider-range-value"></span></div>
-					            			<div class="col s2"><i class="icons icon-arrow-right center-align"></i></div>
-					            			<div class="col s5"><span id="slider-range-value2"></span></div>
+					            			<div class="col l5"><span id="slider-range-value"></span></div>
+					            			<div class="col l2"><i class="icons icon-arrow-right center-align"></i></div>
+					            			<div class="col l5"><span id="slider-range-value2"></span></div>
 					            			
 					            			<p class="category-ceklok">Lokasi</p>
 					            			<p class="checkbox-ceklok"><input type="checkbox" id="test1"><label for="test1">Mamajang</label></p>
