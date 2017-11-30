@@ -88,39 +88,77 @@
 									        <li class="indicator" style="right: 359px; left: 288px;"></li>
 									    </ul>
 									</div>
-				                    <div class="col l12 card white list-ceklok">   
-					                    <div class="col l3">
-					                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
-					                    </div>
-					                    <div class="col l6">
-					                      	<div class="card-content ">
-					                        	<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
-					                        	<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
-					                        	<p>Tipe Ruangan: Ruang Meeting</p>
-					                      	</div>                  
-					                    </div> 
-					                    <div class="col l3 center-align right-ceklok">
-					                    	<p>Pesan</p>
-					                    	<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
-					                    	<p><i class="icon-people icons"></i> 250 pax</p>
-					                    </div>                    
+					                <div id="paket">
+					                    <div class="col l12 card white list-ceklok">   
+						                    <div class="col l3">
+						                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
+						                    </div>
+						                    <div class="col l6">
+						                      	<div class="card-content ">
+						                        	<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
+						                        	<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
+						                        	<p>Tipe Ruangan: Ruang Meeting</p>
+						                      	</div>                  
+						                    </div> 
+						                    <div class="col l3 center-align right-ceklok">
+						                    	<p>Pesan</p>
+						                    	<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
+						                    	<p><i class="icon-people icons"></i> 250 pax</p>
+						                    </div>                    
+						                </div>
+						                <div class="col l12 card white list-ceklok">
+						                	<div class="col l3">
+						                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
+						                	</div>
+						                	<div class="col l6">
+						                		<div class="card-content">
+						                			<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
+						                			<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
+						                			<p>Tipe Ruangan: Ruang Meeting</p>
+						                		</div>                  
+						                	</div> 
+						                	<div class="col l3 center-align right-ceklok">
+						                		<p>Pesan</p>
+						                		<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
+						                		<p><i class="icon-people icons"></i> 250 pax</p>
+						                	</div>                    
+						                </div>
 					                </div>
-					                <div class="col l12 card white list-ceklok">
-					                	<div class="col l3">
-					                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
-					                	</div>
-					                	<div class="col l6">
-					                		<div class="card-content">
-					                			<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Training Center UIN Alauddin</span></a>
-					                			<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
-					                			<p>Tipe Ruangan: Ruang Meeting</p>
-					                		</div>                  
-					                	</div> 
-					                	<div class="col l3 center-align right-ceklok">
-					                		<p>Pesan</p>
-					                		<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
-					                		<p><i class="icon-people icons"></i> 250 pax</p>
-					                	</div>                    
+					                <div id="non-paket">
+					                    <div class="col l12 card white list-ceklok">   
+						                    <div class="col l3">
+						                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
+						                    </div>
+						                    <div class="col l6">
+						                      	<div class="card-content ">
+						                        	<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Paket Bazar</span></a>
+						                        	<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
+						                        	<p>Tipe Ruangan: Ruang Meeting</p>
+						                      	</div>                  
+						                    </div> 
+						                    <div class="col l3 center-align right-ceklok">
+						                    	<p>Pesan</p>
+						                    	<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
+						                    	<p><i class="icon-people icons"></i> 250 pax</p>
+						                    </div>                    
+						                </div>
+						                <div class="col l12 card white list-ceklok">
+						                	<div class="col l3">
+						                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
+						                	</div>
+						                	<div class="col l6">
+						                		<div class="card-content">
+						                			<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Paket Bazar</span></a>
+						                			<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
+						                			<p>Tipe Ruangan: Ruang Meeting</p>
+						                		</div>                  
+						                	</div> 
+						                	<div class="col l3 center-align right-ceklok">
+						                		<p>Pesan</p>
+						                		<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
+						                		<p><i class="icon-people icons"></i> 250 pax</p>
+						                	</div>                    
+						                </div>
 					                </div>
 					                <div class="col l12 center">
 					                	<ul class="pagination">
