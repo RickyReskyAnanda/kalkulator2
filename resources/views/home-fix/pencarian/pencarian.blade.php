@@ -187,9 +187,9 @@
 					            			<div class="col l5"><span id="slider-range-value2"></span></div>
 					            			
 					            			<p class="category-ceklok">Lokasi</p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test1"><label for="test1">Mamajang</label></p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test2"><label for="test2">Tamalate</label></p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test3"><label for="test3">Tamalanrea</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test1"><label for="test1">Mamajang</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test2"><label for="test2">Tamalate</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test3"><label for="test3">Tamalanrea</label></p>
 					            			
 					            			<p class="category-ceklok">Kapasitas</p>
 					            			<p><input class="with-gap" name="group1" type="radio" id="test4"><label for="test4">0 > 10</label></p>
@@ -199,9 +199,9 @@
 					            			<p><input class="with-gap" name="group1" type="radio" id="test8"><label for="test8">100 > dst.</label></p>
 
 					            			<p class="category-ceklok">Tipe Ruangan</p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test9"><label for="test9">Meeting Room</label></p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test10"><label for="test10">Conference Room</label></p>
-					            			<p class="checkbox-ceklok"><input type="checkbox" id="test11"><label for="test11">Tamalanrea</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test9"><label for="test9">Meeting Room</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test10"><label for="test10">Conference Room</label></p>
+					            			<p class="checkbox-ceklok"><input type="checkbox" class="filled-in" id="test11"><label for="test11">Tamalanrea</label></p>
 
 					            		</div>
 				                    </div>
