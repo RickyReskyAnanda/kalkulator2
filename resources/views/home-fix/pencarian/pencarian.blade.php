@@ -83,8 +83,8 @@
 		                  		<div class="col l8">
 									<div class="col l5 right">
 					                  	<ul class="tabs" style="width: 30%;">
-					                    	<li class="tab"><a href="#paket" class="">Paket</a></li>
 					                    	<li class="tab"><a class="" href="#non-paket">Non Paket</a></li>
+					                    	<li class="tab"><a href="#paket" class="">Paket</a></li>
 									        <li class="indicator" style="right: 359px; left: 288px;"></li>
 									    </ul>
 									</div>
