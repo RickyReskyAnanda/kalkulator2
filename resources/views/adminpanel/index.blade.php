@@ -59,7 +59,7 @@
                     <a href="{{url('adminpanel/manajemen-user')}}"><i class="fa fa-shield"></i> <span class="nav-label">Manajemen User</span> <span></span></a>                    
                 </li>
                 <li>
-                    <a href="dashboard_2.html"><i class="fa fa-gear"></i> <span class="nav-label">User</span> <span></span></a>                    
+                    <a href="dashboard_2.html"><i class="fa fa-gear"></i> <span class="nav-label">Data Master</span> <span></span></a>                    
                 </li>                
             </ul>
 
