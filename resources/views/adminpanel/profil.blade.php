@@ -68,14 +68,14 @@
                         <div class="col-lg-offset-2 col-lg-10">  
                             <button class="btn btn-primary " type="button"><i class="fa fa-check"></i>&nbsp;SUbmit</button>  
                         </div> 
-                    </div>                       
+                    </div>              
                 </form>
         </div>    
     </div>
 
     <div class="col-md-5">        
         <div class="ibox-content">
-            <h3 class="m-t-none m-b">Sign in</h3>
+            <h3 class="m-t-none m-b">Perbaharui Akun</h3>
             <p>Masukkan Email atau Pasword baru anda</p>
             <br>
                 <form method="get" class="form-horizontal">

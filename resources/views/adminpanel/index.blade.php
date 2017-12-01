@@ -12,8 +12,14 @@
 
     <link href="{{asset('1nb19/css/animate.css')}}" rel="stylesheet">
     <link href="{{asset('1nb19/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/colorheader.css')}}" rel="stylesheet">
 
     <link href="{{asset('1nb19/css/plugins/iCheck/custom.css')}}" rel="stylesheet">
+
+     <!-- Data Tables -->
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.tableTools.min.css')}}" rel="stylesheet">
 
 
 
@@ -160,6 +166,15 @@
 
     <!-- Sparkline demo data  -->
     <script src="{{asset('1nb19/js/demo/sparkline-demo.js')}}"></script>
+
+     <!-- Data Tables -->
+    <script src="{{asset('1nb19/js/plugins/dataTables/jquery.dataTables.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.bootstrap.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.responsive.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.tableTools.min.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/man-user.js')}}"></script>
+    
+
 
     <!-- iCheck -->
     <script src="{{asset('1nb19/js/plugins/iCheck/icheck.min.js')}}"></script>
