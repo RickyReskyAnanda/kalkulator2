@@ -49,18 +49,23 @@
                         IN+
                     </div>
                 </li>
-                <li class="active">
+                <li>
                     <a href="{{url('adminpanel/dashboard')}}"><i class="fa fa-th"></i> <span class="nav-label">Dashboards</span> <span></span></a>                    
                 </li> 
                 <li>
                     <a href="{{url('adminpanel/profil')}}"><i class="fa fa-shield"></i> <span class="nav-label">Profil</span> <span></span></a>                    
                 </li>
                 <li>
-                    <a href="{{url('adminpanel/manajemen-user')}}"><i class="fa fa-shield"></i> <span class="nav-label">Manajemen User</span> <span></span></a>                    
+                    <a href="{{url('adminpanel/manajemen-user')}}"><i class="fa fa-shield"></i> <span class="nav-label">Manajemen User</span> <span></span></a>               
                 </li>
                 <li>
-                    <a href="dashboard_2.html"><i class="fa fa-gear"></i> <span class="nav-label">Data Master</span> <span></span></a>                    
-                </li>                
+                    <a href="javascript:;"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Data Master</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="{{url('adminpanel/data-master/acara')}}">Acara</a></li>
+                        <li><a href="{{url('adminpanel/data-master/fasilitas')}}">Fasilitas</a></li>
+                        <li><a href="{{url('adminpanel/data-master/langganan')}}">Langganan</a></li>
+                    </ul>
+                </li>            
             </ul>
 
         </div>

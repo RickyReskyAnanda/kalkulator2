@@ -9,7 +9,7 @@
                 </div>
                 <div class="ibox-content">
                     <div class="">
-                        <a onclick="fnClickAddRow();" href="javascript:void(0);" class="btn btn-success ">Tambah Fasilitas</a>
+                        <a class="btn btn-success ">Tambah Fasilitas</a>
                     </div>
                     <table class="table table-striped table-bordered table-hover " id="fasilitas" >
                         <thead>
@@ -18,7 +18,7 @@
                                 <th style="width: 10%;">Icon</th>
                                 <th>Nama</th>
                                 <th style="width: 4%;">Show</th>
-                                <th style="width: 12%;">Action</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
