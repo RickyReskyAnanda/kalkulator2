@@ -2,104 +2,187 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-7">        
-        <div class="ibox-content">
-            <h3 class="m-t-none m-b">Profile</h3>            
-            <br>
-                <form method="get" class="form-horizontal">
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Nama</label>
-                        <div class="col-sm-10">
-                            <input type="text" placeholder="" class="form-control">
-                        </div>
+    <div class="col-md-12 col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title header-primary">
+                    <h3 style="color: white;">Fasilitas</h3>                    
+                </div>
+                <div class="ibox-content">
+                    <div class="">
+                        <a class="btn btn-success ">Tambah Fasilitas</a>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Jabatan</label>
-                        <div class="col-sm-10">
-                            <input type="text" placeholder="" class="form-control">
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">No. Tlp</label>
-                        <div class="col-sm-10">
-                            <input type="text" placeholder="" class="form-control">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Jenis Kelamin</label>
-                        <div class="col-sm-10">
-                            <div class="i-checks">
-                                <label> <input type="radio" value="option1" name="a"> <i></i>Laki-Laki</label>
-                            </div>
-                            <div class="i-checks">
-                                <label> <input type="radio" checked="" value="option2" name="a"> <i></i>Perempuan</label></div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Alamat</label>
-                        <div class="col-sm-10">
-                            <input type="text" placeholder="" class="form-control">
-                        </div>
-                    </div>                   
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Provinsi</label>
-                        <div class="col-sm-10">
-                            <select class="form-control m-b" name="account">
-                                <option hidden="">Pilih Provinsi</option>
-                                <option>Sulsel</option>
-                                <option>Jawa Timur</option>
-                                <option>Sulteng</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Kota</label>
-                        <div class="col-sm-10">
-                            <select class="form-control m-b" name="account">
-                                <option hidden="">Kab/Kota</option>
-                                <option>Makassar</option>
-                                <option>Maros</option>
-                                <option>Gowa</option>
-                            </select>
-                        </div>
-                    </div> 
-                    <div class="form-group">
-                        <div class="col-lg-offset-2 col-lg-10">  
-                            <button class="btn btn-primary " type="button"><i class="fa fa-check"></i>&nbsp;SUbmit</button>  
-                        </div> 
-                    </div>                       
-                </form>
-        </div>    
+                    <table class="table table-striped table-bordered table-hover " id="fasilitas" >
+                        <thead>
+                            <tr>
+                                <th style="width: 7px;">No</th>
+                                <th style="width: 10%;">Icon</th>
+                                <th>Nama</th>
+                                <th style="width: 4%;">Show</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="nomor">
+                                <td>1</td>
+                                <td><i class="fa fa-wifi"></i></td>
+                                <td>Wifi</td>
+                                <td class="center">
+                                    <div class="switch">
+                                        <div class="onoffswitch">
+                                            <input type="checkbox" checked class="onoffswitch-checkbox" id="show1">
+                                            <label class="onoffswitch-label" for="show1">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>2</td>
+                                <td><i class="fa fa-trash"></i></td>
+                                <td>Tempat Sampah</td>
+                                <td class="center">
+                                     <div class="switch">
+                                        <div class="onoffswitch">
+                                            <input type="checkbox" checked class="onoffswitch-checkbox" id="show2">
+                                            <label class="onoffswitch-label" for="show2">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>3</td>
+                                <td><i class="fa fa-car"></i></td>
+                                <td>Mobil</td>
+                                <td class="center">
+                                    <div class="switch">
+                                        <div class="onoffswitch">
+                                            <input type="checkbox" checked class="onoffswitch-checkbox" id="show3">
+                                            <label class="onoffswitch-label" for="show3">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
     </div>
 
-    <div class="col-md-5">        
-        <div class="ibox-content">
-            <h3 class="m-t-none m-b">Sign in</h3>
-            <p>Masukkan Email atau Pasword baru anda</p>
-            <br>
-                <form method="get" class="form-horizontal">
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" placeholder="New Email" required="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" placeholder="New Password">
-                        </div>
-                    </div> 
-                    <br>
-                    <div class="form-group">
-                        <div class="col-lg-offset-2 col-lg-10">  
-                            <button class="btn btn-primary " type="button"><i class="fa fa-check"></i>&nbsp;Update</button>  
-                        </div> 
-                    </div>                                                     
-                </form>
-        </div>    
+    <!-- Langganan -->
+    <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title header-primary">
+                    <h3 style="color:white;">Langganan</h3>                    
+                </div>
+                <div class="ibox-content">
+                    <table class="table table-striped table-bordered table-hover " id="langganan" >
+                        <thead>
+                            <tr>
+                                <th style="width: 7px;">No</th>
+                                <th>Email</th>
+                                <th>Waktu</th>                                                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="nomor">
+                                <td>1</td>
+                                <td>LCD</td>
+                                <td>Details</td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>2</td>
+                                <td>Sound System</td>
+                                <td>Win 95+</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>3</td>
+                                <td>Coffee Break</td>
+                                <td>Win 95+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
     </div>
+
+
+    <!-- Event -->
+    <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title header-primary">
+                    <h3 style="color: white;">Event</h3>                    
+                </div>
+                <div class="ibox-content">
+                    <div class="">
+                        <a onclick="fnClickAddRow();" href="javascript:void(0);" class="btn btn-success ">Tambah Fasilitas</a>
+                    </div>
+                    <table class="table table-striped table-bordered table-hover " id="kegiatan" >
+                        <thead>
+                            <tr>
+                                <th style="width: 7px;">No</th>
+                                <th>Nama</th>
+                                <th>Urutan Pilihan</th>                                                                
+                                <th>Urutan Menu </th>                                                                
+                                <th style="width: 12%;">Action</th>                                                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="nomor">
+                                <td>1</td>
+                                <td>LCD</td>
+                                <td>Details</td>
+                                <td>Details</td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>2</td>
+                                <td>Sound System</td>
+                                <td>Win 95+</td>
+                                <td>Win 95+</td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>3</td>
+                                <td>Coffee Break</td>
+                                <td>Win 95+</td>
+                                <td>Win 95+</td>
+                                <td style="text-align: center;">
+                                    <button class="btn btn-warning " type="button"><i class="fa fa-paste"></i> Edit</button>
+                                    <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i> Hapus</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+
 </div>
 
 @endsection

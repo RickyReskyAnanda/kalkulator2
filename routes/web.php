@@ -65,7 +65,14 @@ Route::prefix('adminpanel')->group(function () {
 			// 	Route::get('tambah/{id}', 'MitraAdminController@viewTambahTempat');
 			// 	Route::get('detail/{id}', 'MitraAdminController@viewDetailTempat');
 			// });
-			
+			Route::namespace('DataMaster')->group(function () {
+				Route::prefix('data-master')->group(function(){
+					Route::get('fasilitas','FasilitasController@viewFasilitas');
+					Route::get('langganan','LanggananController@viewLangganan');
+					Route::get('acara','AcaraController@viewAcara');
+				});
+			});
+
 			Route::get('register','RegisterController@index');
 			Route::get('setting','SettingController@viewSetting');
 

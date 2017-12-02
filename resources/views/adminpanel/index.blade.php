@@ -12,8 +12,14 @@
 
     <link href="{{asset('1nb19/css/animate.css')}}" rel="stylesheet">
     <link href="{{asset('1nb19/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/colorheader.css')}}" rel="stylesheet">
 
     <link href="{{asset('1nb19/css/plugins/iCheck/custom.css')}}" rel="stylesheet">
+
+     <!-- Data Tables -->
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.tableTools.min.css')}}" rel="stylesheet">
 
 
 
@@ -43,18 +49,23 @@
                         IN+
                     </div>
                 </li>
-                <li class="active">
+                <li>
                     <a href="{{url('adminpanel/dashboard')}}"><i class="fa fa-th"></i> <span class="nav-label">Dashboards</span> <span></span></a>                    
                 </li> 
                 <li>
                     <a href="{{url('adminpanel/profil')}}"><i class="fa fa-shield"></i> <span class="nav-label">Profil</span> <span></span></a>                    
                 </li>
                 <li>
-                    <a href="{{url('adminpanel/manajemen-user')}}"><i class="fa fa-shield"></i> <span class="nav-label">Manajemen User</span> <span></span></a>                    
+                    <a href="{{url('adminpanel/manajemen-user')}}"><i class="fa fa-shield"></i> <span class="nav-label">Manajemen User</span> <span></span></a>               
                 </li>
                 <li>
-                    <a href="dashboard_2.html"><i class="fa fa-gear"></i> <span class="nav-label">User</span> <span></span></a>                    
-                </li>                
+                    <a href="javascript:;"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Data Master</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="{{url('adminpanel/data-master/acara')}}">Acara</a></li>
+                        <li><a href="{{url('adminpanel/data-master/fasilitas')}}">Fasilitas</a></li>
+                        <li><a href="{{url('adminpanel/data-master/langganan')}}">Langganan</a></li>
+                    </ul>
+                </li>            
             </ul>
 
         </div>
@@ -160,6 +171,15 @@
 
     <!-- Sparkline demo data  -->
     <script src="{{asset('1nb19/js/demo/sparkline-demo.js')}}"></script>
+
+     <!-- Data Tables -->
+    <script src="{{asset('1nb19/js/plugins/dataTables/jquery.dataTables.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.bootstrap.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.responsive.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.tableTools.min.js')}}"></script>
+    <script src="{{asset('1nb19/js/plugins/dataTables/man-user.js')}}"></script>
+    
+
 
     <!-- iCheck -->
     <script src="{{asset('1nb19/js/plugins/iCheck/icheck.min.js')}}"></script>

@@ -1,0 +1,15 @@
+.header-primary{
+	background-color: #1ab394;
+}
+.header-success{
+	background-color: #1c84c6;
+}
+.header-info{
+	background-color: #23c6c8;
+}
+.header-warning{
+	background-color: #f8ac59;
+}
+.header-danger{
+	background-color: #ed5565;
+}
