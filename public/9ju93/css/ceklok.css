@@ -151,14 +151,22 @@ label,.category-ceklok {
 	font-size: 26px !important;
 }
 
-.fasilities ul li {
+.detail-facilities ul li {
 	display: inline;
-	margin: auto 5px;
+	margin: 10px 5px;
 }
 
-.fasilities i {
+.detail-facilities ul {
+	margin: 0;
+}
+
+.detail-facilities i {
 	margin: auto 5px;
 	color: #2196f3;
+}
+
+.detail-facilities ul li:first-child {
+	margin-left:-5px !important;
 }
 
 .input-field .prefix {

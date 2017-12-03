@@ -126,21 +126,28 @@
 							</div>
 						</section>
 						<section>
-	                	<div class="row">
-	                		<div class="col s4">
+	                		<div class="col s4 ">
 	                			<strong>Fasilitas</strong>
 	                		</div>
-	                		<div class="col s8 fasilities">
+	                		<div class="col s8 detail-facilities">
 	                			<ul>
 			                		<li><i class="icon-menu icons"></i>AC</li>
 			                		<li><i class="icon-present icons"></i>Parkir</li>
 			                		<li><i class="icon-location-pin icons"></i>Wifi</li>
 			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
+			                		<li><i class="icon-calendar icons"></i>Air Botol</li>
 			                	</ul>
 	                		</div>
-	                	</div>
-	                	<div class="col s4">Alamat</div>
-	                	<div class="col s8">Jalan Kaki No, woeif</div>
+	                	<div class="col s4"><p>Alamat</p></div>
+	                	<div class="col s8"><p>Jalan Kaki No, woeif</p></div>
 	                </section>
 		      	</div>
 		      	</div>
