@@ -147,5 +147,6 @@ Route::prefix('demo')->group(function () {
 		Route::get('/', 'BerandaController@index');
 		Route::get('pencarian', 'PencarianController@index');
 		Route::get('venue/detail', 'DetailVenueController@index');
+		Route::get('venue/pembayaran', 'PembayaranController@index');
 	});
 });
