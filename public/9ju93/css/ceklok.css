@@ -165,10 +165,24 @@ label,.category-ceklok {
 	color: #2196f3;
 }
 
-.detail-facilities ul li:first-child {
-	margin-left:-5px !important;
-}
-
 .input-field .prefix {
 	color: grey;
 }
+
+.package-name {
+	width: 100%;
+}
+
+.package-name .card-title {
+	color: white;
+	padding: 25px;
+}
+
+.package .collection {
+	border: none;
+}
+
+.package .collection-item {
+	border:none;
+}
+/*1px solid #e0e0e0*/
