@@ -22,7 +22,6 @@
     <link href="{{asset('1nb19/css/plugins/dataTables/dataTables.tableTools.min.css')}}" rel="stylesheet">
 
 
-
 </head>
 
 <body>
@@ -179,7 +178,7 @@
     <script src="{{asset('1nb19/js/plugins/dataTables/dataTables.tableTools.min.js')}}"></script>
     <script src="{{asset('1nb19/js/plugins/dataTables/man-user.js')}}"></script>
     
-
+   
 
     <!-- iCheck -->
     <script src="{{asset('1nb19/js/plugins/iCheck/icheck.min.js')}}"></script>
