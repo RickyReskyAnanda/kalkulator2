@@ -125,50 +125,54 @@
 								</div>
 							</div>
 						</section>
-						<section>
+						<section class="detail-facilities">
 							<div class="row">
-		                		<div class="col s4 ">
+		                		<div class="col l4 ">
 		                			<strong>Fasilitas Umum</strong>
 		                		</div>
-		                		<div class="col s8 detail-facilities">
+		                		<div class="col l8">
 		                			<ul>
-				                		<li class="col s2"><i class="icon-menu icons"></i>AC</li>
-				                		<li class="col s2"><i class="icon-present icons"></i>Parkir</li>
-				                		<li class="col s2"><i class="icon-location-pin icons"></i>Wifi</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
-				                		<li class="col s2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-menu icons"></i>AC</li>
+				                		<li class="col l2"><i class="icon-present icons"></i>Parkir</li>
+				                		<li class="col l2"><i class="icon-location-pin icons"></i>Wifi</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
+				                		<li class="col l2"><i class="icon-calendar icons"></i>Air Botol</li>
 				                	</ul>
 		                		</div>
 							</div>
-							<div class="col s4">
-								<strong>Alamat</strong>
+							<div class="row">
+								
+								<div class="col l4">
+									<strong>Alamat</strong>
+								</div>
+								<div class="col l8">Jalan Kaki No, woeif</div>
 							</div>
-	                	<div class="col s8"><p>Jalan Kaki No, woeif</p></div>
 	                </section>
 	                <section>
-	                	<div class="col l5 offset-l4 tabs-fixed-width">
+	                			
+	                				<div class="col l6 offset-l3 tabs-fixed-width">
 					                  	<ul class="tabs" style="width: 30%;">
-					                    	<li class="tab"><a class="" href="#regular">Regular</a></li>
+					                    	<li class="tab"><a class="active" href="#regular">Regular</a></li>
 					                    	<li class="tab"><a class="" href="#wedding">Wedding</a></li>
 					                    	<li class="tab"><a class="" href="#meeting">Meeting</a></li>
 									        <li class="indicator" style="right: 359px; left: 288px;"></li>
 									    </ul>
 									</div>
 					                <div id="regular">
-					                	<article class="col l4">
+					                	<article class="col l8 offset-l2">
 						                  <div class="card hoverable package">
 						                    <div class="purple waves-effect package-name center">
-						                      <div class="card-title">BASIC</div>
+						                      <div class="card-title">REGULAR</div>
 						                    </div>
-						                    <div class="card-content">
+						                    <div class="card-content center">
 						                      <ul class="collection">
 						                        <li class="collection-item">Gratis Makan</li>
 						                        <li class="collection-item">Gratis Minum</li>
@@ -181,90 +185,146 @@
 						                      </ul>
 						                    </div>
 						                    <div class="card-action center-align">                      
-						                      <button class="waves-effect waves-light  btn">Select Plan</button>
-						                    </div>
-						                  </div>
-						                </article>
-						                <article class="col l4">
-						                  <div class="card hoverable package">
-						                    <div class="purple waves-effect package-name center">
-						                      <div class="card-title">BASIC</div>
-						                    </div>
-						                    <div class="card-content">
-						                      <ul class="collection">
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">Gratis Minum</li>
-						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">unlimited data</li>
-						                        <li class="collection-item">1 users</li>
-						                        <li class="collection-item">first 15 day free</li>
-						                      </ul>
-						                    </div>
-						                    <div class="card-action center-align">                      
-						                      <button class="waves-effect waves-light  btn">Select Plan</button>
-						                    </div>
-						                  </div>
-						                </article>
-						                <article class="col l4">
-						                  <div class="card hoverable package">
-						                    <div class="purple waves-effect package-name center">
-						                      <div class="card-title">BASIC</div>
-						                    </div>
-						                    <div class="card-content">
-						                      <ul class="collection">
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">Gratis Minum</li>
-						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">Gratis Makan</li>
-						                        <li class="collection-item">unlimited data</li>
-						                        <li class="collection-item">1 users</li>
-						                        <li class="collection-item">first 15 day free</li>
-						                      </ul>
-						                    </div>
-						                    <div class="card-action center-align">                      
-						                      <button class="waves-effect waves-light  btn">Select Plan</button>
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
 						                    </div>
 						                  </div>
 						                </article>
 					                </div>
-					                <div id="non-paket">
-					                    <div class="col l12 card white list-ceklok">   
-						                    <div class="col l3">
-						                    	<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
+					                <div id="wedding">
+					                	<article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">STANDAR</div>
 						                    </div>
-						                    <div class="col l6">
-						                      	<div class="card-content ">
-						                        	<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Paket Bazar</span></a>
-						                        	<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
-						                        	<p>Tipe Ruangan: Ruang Meeting</p>
-						                      	</div>                  
-						                    </div> 
-						                    <div class="col l3 center-align right-ceklok">
-						                    	<p>Pesan</p>
-						                    	<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
-						                    	<p><i class="icon-people icons"></i> 250 pax</p>
-						                    </div>                    
-						                </div>
-						                <div class="col l12 card white list-ceklok">
-						                	<div class="col l3">
-						                		<img class="responsive-img activator materialboxed" src="{{url('9ju93/img/office.jpg')}}" alt="office">
-						                	</div>
-						                	<div class="col l6">
-						                		<div class="card-content">
-						                			<a href="#"><span class="card-title tooltipped grey-ceklok-text" data-position="bottom" data-delay="50" data-tooltip="Training Center UIN Alauddin">Paket Bazar</span></a>
-						                			<p><a href="#"><i class="icon-location-pin icons"></i> Mamajang, Makassar</a></p>
-						                			<p>Tipe Ruangan: Ruang Meeting</p>
-						                		</div>                  
-						                	</div> 
-						                	<div class="col l3 center-align right-ceklok">
-						                		<p>Pesan</p>
-						                		<a class="waves-effect waves-light btn btn-pay ">Rp 800.000</a>      
-						                		<p><i class="icon-people icons"></i> 250 pax</p>
-						                	</div>                    
-						                </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
+						                <article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">SILVER</div>
+						                    </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
+						                <article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">GOLD</div>
+						                    </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
+					                </div>
+					                <div id="meeting">
+					                	<article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">Half Day</div>
+						                    </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
+						                <article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">FUll Day</div>
+						                    </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
+						                <article class="col l4">
+						                  <div class="card hoverable package">
+						                    <div class="purple waves-effect package-name center">
+						                      <div class="card-title">Full Day School</div>
+						                    </div>
+						                    <div class="card-content">
+						                      <ul class="collection">
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Minum</li>
+						                        <li class="collection-item">Gratis Dekorasi dan lain-lain cek tulisan panjang</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">Gratis Makan</li>
+						                        <li class="collection-item">unlimited data</li>
+						                        <li class="collection-item">1 users</li>
+						                        <li class="collection-item">first 15 day free</li>
+						                      </ul>
+						                    </div>
+						                    <div class="card-action center-align">                      
+						                      <button class="waves-effect waves-light  btn btn-pay">Pilih Paket</button>
+						                    </div>
+						                  </div>
+						                </article>
 					                </div>
 	                </section>
 		      	</div>
