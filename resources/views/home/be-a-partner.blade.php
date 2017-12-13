@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="newsletterForm">
-                            <label>Kabupaten/Kota</label>
+                            <label>Provinsi</label>
                             <select name="provinsi" class="form-control" required>
                                 @foreach($province as $prov)
                                 <option value="{{$prov->id}}">{{$prov->name}}</option>
