@@ -138,6 +138,12 @@ Route::get('regency', 'Region\RegionController@regency');
 
 
 
+Route::prefix('mobile-app')->group(function () {
+	Route::namespace('Mobile_App')->group(function () {
+		Route::get('/', 'BasicController@index');
+		Route::get('venue', 'BasicController@index');
+	});
+});
 
 
 
