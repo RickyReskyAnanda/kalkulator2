@@ -10,21 +10,11 @@
     <link href="{{asset('m9199/css/materialize.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="{{asset('m9199/css/style.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
     <style type="text/css">
-        .collection .collection-item.avatar:not(.circle-clipper) > .circle, .collection .collection-item.avatar :not(.circle-clipper) > .circle{
-            top:7px;
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
-        }
-        .collection .collection-item{
-            padding: 12px 20px;
-            border-bottom: 0; 
-        }
-        .collection .collection-item.avatar{
-            min-height: 30px;
-        }
         body{
             background: #eee;
+        }
+        .line-height{
+            line-height: 1.5rem;
         }
 
         .card .card-action{
@@ -36,103 +26,51 @@
         .row{
             margin-bottom: 0;
         }
+
+        .collection .collection-item.avatar{
+            padding-left: 100px;
+        }
+        .collection .collection-item{
+            padding: 5px 10px;
+        }
+        .collection .collection-item.avatar:not(.circle-clipper) > .circle, .collection .collection-item.avatar :not(.circle-clipper) > .circle{
+            border-radius: 0;
+            width:85px;
+            height:auto;
+            left:5px;
+            top:5px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="section">
-        <!--   Icon Section   -->
-            <div class="row">
-                <div class="col s12 m12 l12" style="padding: 0;">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
-                                    <p align="center">Cari tempat terbaik anda dengan harga sesuai.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 m12 l12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <i class="material-icons prefix">location_on</i>
-                                            <input type="text" id="lokasi" class="autocomplete" placeholder="Ketik Lokasi Anda.">
-                                            <label>Lokasi</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 m12 l12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <i class="material-icons prefix">class</i>
-                                            <input type="text" id="jenis_acara" class="autocomplete" placeholder="Ketik Jenis Acara Anda.">
-                                            <label>Jenis Acara</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 m12 l12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <i class="material-icons prefix">class</i>
-                                            <input type="text" class="datepicker">
-                                            <label>Jenis Acara</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-action">
-                            <a class="waves-effect waves-light btn" style="width: 100%">Lihat Penawaran</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">
             <div class="col s12 m12" style="padding: 0;">
                 <ul class="collection">
-    <li class="collection-item avatar">
-      <img src="images/yuna.jpg" alt="" class="circle">
-      <span class="title">Title</span>
-      <p>First Line <br>
-         Second Line
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle">folder</i>
-      <span class="title">Title</span>
-      <p>First Line <br>
-         Second Line
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle green">insert_chart</i>
-      <span class="title">Title</span>
-      <p>First Line <br>
-         Second Line
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle red">play_arrow</i>
-      <span class="title">Title</span>
-      <p>First Line <br>
-         Second Line
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-  </ul>
+                <li class="collection-item avatar">
+                  <img src="{{asset('m9199/background1.jpg')}}" alt="" class="circle">
+                  <span class="title">Melia Hotel Makassar Meeting Room</span>
+                  <p class="line-height">Tamalate, Kota Makassar </p>
+                  <p class="line-height">Rp. 6.0000.000 </p>
+                </li>
+                <li class="collection-item avatar">
+                  <img src="{{asset('m9199/background1.jpg')}}" alt="" class="circle">
+                  <span class="title">Title</span>
+                  <p class="line-height">First Line 
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <img src="{{asset('m9199/background1.jpg')}}" alt="" class="circle">
+                  <span class="title">Title</span>
+                  <p class="line-height">First Line 
+                  </p>
+                  <p class="line-height">First Line 
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+              </ul>
             </div>
         </div>
     </div>
