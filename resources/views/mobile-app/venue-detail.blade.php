@@ -77,12 +77,13 @@
                               <li>
                                 <img src="{{$foto->url}}" alt="{{$foto->name}}"> <!-- random image -->
                               </li>
+                              @endforeach
                             </ul>
                           </div>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">{{$detail->name.', '.$detail->venue_name}}</span>
-                        <p><a href="#">{{$detail->venue_kind}}</a> <span class="right">329 Ulasan</span></p>
+                        <p><a href="#">{{$detail->venue_kind}}</a></p>
                     </div>
                     <div class="card-footer" style="padding: 5px;">
                         <a href="#harga" class="waves-effect waves-light amber btn w-100 black-text" >Pesan Sekarang</a>
@@ -171,6 +172,7 @@
             </div>
         </div>
         @endif
+        @if(count($detail->ruangan)>1)
         <div class="row">
             <div class="col s12 m12 l12" style="padding: 0;">
                 <ul class="collection">
@@ -212,6 +214,7 @@
                 </ul>
             </div>
         </div>
+        @endif
         <div class="row">
             <div class="col s12 m12" style="padding: 0;">
                 <ul class="collection">
