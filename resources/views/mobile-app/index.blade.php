@@ -3,9 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Parallax Template - Materialize</title>
-
-    <!-- CSS  -->
+    <title>Ceklokasi.id</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="{{asset('m9199/css/materialize.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="{{asset('m9199/css/style.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -26,7 +24,6 @@
         body{
             background: #eee;
         }
-
         .card .card-action{
             padding: 5px;
         }
@@ -44,6 +41,7 @@
         <!--   Icon Section   -->
             <div class="row">
                 <div class="col s12 m12 l12" style="padding: 0;">
+                    <form method="get" action="{{url('mobile-app/venue')}}">
                     <div class="card">
                         <div class="card-content">
                             <div class="row">
@@ -56,8 +54,11 @@
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <i class="material-icons prefix">location_on</i>
-                                            <input type="text" id="lokasi" class="autocomplete" placeholder="Ketik Lokasi Anda.">
-                                            <label>Lokasi</label>
+                                            <select name="lokasi" required>
+                                                <option value="7371" selected>Kota Makassar</option>
+                                                <option value="7306">Kab. Gowa</option>
+                                            </select>
+                                          <label>Lokasi :</label>
                                         </div>
                                     </div>
                                 </div>
@@ -67,8 +68,8 @@
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <i class="material-icons prefix">class</i>
-                                            <input type="text" id="jenis_acara" class="autocomplete" placeholder="Ketik Jenis Acara Anda.">
-                                            <label>Jenis Acara</label>
+                                            <input type="text" id="kegiatan" name="kegiatan" class="autocomplete" placeholder="Ketik Jenis Acara Anda." required>
+                                            <label>Acara dan Kegiatan</label>
                                         </div>
                                     </div>
                                 </div>
@@ -76,19 +77,24 @@
                             <div class="row">
                                 <div class="col s12 m12 l12">
                                     <div class="row">
-                                        <div class="input-field col s12">
-                                            <i class="material-icons prefix">class</i>
-                                            <input type="text" class="datepicker">
-                                            <label>Jenis Acara</label>
+                                        <div class="input-field col s7">
+                                            <i class="material-icons prefix">event_seat</i>
+                                            <input type="number" value="1" name="min" required>
+                                            <label>Minimal </label>
+                                        </div>
+                                        <div class="input-field col s5" style="padding-left: 0">
+                                            <input type="number" value="10" name="max" required>
+                                            <label>Maksimal</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card-action">
-                            <a class="waves-effect waves-light btn" style="width: 100%">Lihat Penawaran</a>
+                            <button type="submit" class="waves-effect waves-light amber btn black-text" style="width: 100%">Lihat Penawaran</button>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -96,49 +102,31 @@
 
 
     <div class="section">
-        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m12">
+                <span>Mencari Tempat Lain ?</span>
+            </div>
+        </div>
         <div class="row">
             <div class="col s12 m12" style="padding: 0;">
                 <ul class="collection">
                     <li class="collection-item avatar">
-                        <i class="material-icons circle green">local_dining</i>
-                        <span class="title">Title</span>
+                        <i class="material-icons circle green">domain</i>
+                        <span class="title">Meeting Room</span>
                     </li>
                     <li class="collection-item avatar">
                         <i class="material-icons circle red">play_arrow</i>
-                        <span class="title">Title</span>
+                        <span class="title">Cafe</span>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle blue">local_dining</i>
+                        <span class="title">Restoran</span>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <footer class="page-footer teal">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m12 l12">
-                    <h5 class="white-text">Ceklokasi.id</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-                </div>
-                <div class="col s12 m12 l12">
-                    <h5 class="white-text">Settings</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-            </div>
-        </div>
-    </footer>
-
-  <!--  Scripts-->
     <script src="{{asset('m9199/js/jquery-2.1.1.js')}}"></script>
     <script src="{{asset('m9199/js/materialize.js')}}"></script>
     <script src="{{asset('m9199/js/init.js')}}"></script>
@@ -146,59 +134,18 @@
         $(document).ready(function() {
             $('select').material_select();
             var aa ={
-              "Apple": null,
-              "Appleas": null,
-              "Appsale": null,
-              "Appasdle": null,
-              "Appdle": null,
-              "Appzxcle": null,
-              "Apcxple": null,
-              "Appzcle": null,
-              "Appzxcle": null,
-              "Appzxcle": null,
-              "Apzxcple": null,
-              "Apzxccxvple": null,
-              "Apdfgple": null,
-              "Aprple": null,
-              "Apdsple": null,
-              "Appble": null,
-              "Apggdpvcle": null,
-              "Apzple": null,
-              "Apple": null,
-              "Apbcple": null,
-              "Apxcple": null,
-              "Apple": null,
-              "Ap le": null,
-              "Appccxvle": null,
-              "Appvcvle": null,
-              "Appxcvle": null,
-              "Appxcxle": null,
-              "Appvxle": null,
-              "Appxle": null,
-              "Appcle": null,
-              "Apcxvxple": null,
-              "Apcvxple": null,
-              "Apcvxvple": null,
-              "Microsoft": null,
-              // "Google": 'https://placehold.it/250x250'
+              <?php foreach($event as $ev) {?>
+              "<?=$ev->name?>": null,
+              <?php } ?>
             };
-            $('input#lokasi').autocomplete({
+            $('input#kegiatan').autocomplete({
                 data: aa,
-                limit: 5, // The max amount of results that can be shown at once. Default: Infinity.
+                limit: 5, 
                 onAutocomplete: function(val) {
-                  // Callback function when value is autcompleted.
                 },
-                minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+                minLength: 1, 
             });
 
-            $('.datepicker').pickadate({
-                selectMonths: true, // Creates a dropdown to control month
-                selectYears: 15, // Creates a dropdown of 15 years to control year,
-                today: 'Today',
-                clear: 'Clear',
-                close: 'Ok',
-                closeOnSelect: false // Close upon selecting a date,
-            });
         });
 
     </script>

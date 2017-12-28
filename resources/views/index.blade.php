@@ -203,13 +203,7 @@
             }
         });
     </script>
-    <!-- Live Chat Widget powered by https://keyreply.com/chat/ -->
-    <!-- Advanced options: -->
-    <!-- data-align="left" -->
-    <!-- data-overlay="true" -->
-    <script src="https://linked.chat/web/gdAry3" async></script>
     <div class="back-focus"></div>
-    
     </body>
 </html>
 

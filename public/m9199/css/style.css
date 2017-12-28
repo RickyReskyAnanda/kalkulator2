@@ -55,3 +55,11 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.price-p{
+    text-align: right;
+}
+.price{
+    color: #ff7220;
+    font-weight: 500;
+}
